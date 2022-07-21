@@ -1,16 +1,19 @@
 {
-  "name": "sample-ttn",
+  "name": "sample-ttni",
   "version": "1.0.0",
   "description": "",
   "main": "./index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "build": "tsc"
-  
+    "build": "tsc",
+    "serve": "yarn run live-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ttni": "^1.0.4"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
