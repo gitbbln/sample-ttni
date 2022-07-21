@@ -1,4 +1,4 @@
-import { TTNI } from './node_modules/ttni-web/dist/index.js'
+import { TTNI } from 'ttni'
 let ttni = new TTNI();
 let ni = ttni.ni.bind(ttni);
 let ne = ttni.ne.bind(ttni);
