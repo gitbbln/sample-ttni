@@ -1,7 +1,7 @@
 {
   "name": "sample-ttni",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.5",
+  "description": "sample ttni for web (es2015)",
   "main": "./index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ttni": "^1.0.4"
+    "ttni": "^1.0.5"
   },
   "devDependencies": {
     "live-server": "^1.2.2"

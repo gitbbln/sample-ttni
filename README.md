@@ -1,4 +1,36 @@
-import { TTNI } from 'ttni'
+# sample-ttni 1.0.5
+
+get function name  from stacktrace for web
+
+## Download
+
+```bash
+git clone https://github.com/gitbbln/sample-ttni
+```
+
+### Install
+
+```bash
+yarn install
+```
+
+### Build
+
+```bash
+yarn build
+```
+
+### Run
+
+```bash
+yarn serve
+```
+
+## Contribute
+
+```JavaScript
+import { TTNI } from './node_modules/ttni/dist/index.js'
+
 let ttni = new TTNI();
 let ni = ttni.ni.bind(ttni);
 let ne = ttni.ne.bind(ttni);
@@ -77,7 +109,21 @@ function testExit(...nu) {
   ne()
 
 }
-
 testExit(['exit no', true]);
 ttni.shTimer();
 ttni.shStack();
+```
+
+### Show in browser F12 console
+
+```JavaScript
+Live reload enabled.
+index.js:104   ->testExit(exit no,true)
+index.js:303 items at: {fn: 'testExit ', caller: undefined, path: 'http://127.0.0.1:8080/index.js', file: 'index.js'}
+index.js:104   <-testExit()
+index.js:310 :6 ms
+index.js:306 stack= Error
+    at TTNI.ne (http://127.0.0.1:8080/node_modules/ttni/dist/index.js:297:42)
+    at testExit (http://127.0.0.1:8080/index.js:77:3)
+    at http://127.0.0.1:8080/index.js:81:1
+```
