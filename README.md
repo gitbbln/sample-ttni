@@ -90,7 +90,7 @@ node index-node.js
 import { TTNI } from 'ttni'
 ```
 
-## --------commom part----------
+## --------common part----------
 
 ```JavaScript
 let ttni = new TTNI();
