@@ -1,10 +1,6 @@
 # sample-ttni 1.0.5
 
-<<<<<<< HEAD
 Get function name  from stacktrace for web or node
-=======
-Get function name  from stacktrace for web
->>>>>>> b828053b5180fa1e2e8e5da9878c976d6cf9f5c2
 
 ## Download
 
@@ -61,9 +57,6 @@ import { TTNI } from './node_modules/ttni-web/dist/index.js'
 yarn serve
 ```
 
-<<<<<<< HEAD
-## --------node----------
-
 ### Run (for node)
 
 ```bash
@@ -71,8 +64,8 @@ node index-node.js
 ```
 
 ## index-node.js
-=======
-## HTML
+
+## html
 
 ```HTML
 <!DOCTYPE html>
@@ -92,7 +85,6 @@ node index-node.js
 ```
 
 ## index.js
->>>>>>> b828053b5180fa1e2e8e5da9878c976d6cf9f5c2
 
 ```JavaScript
 import { TTNI } from 'ttni'
@@ -188,14 +180,17 @@ ttni.shStack();
 
 ```JavaScript
 Live reload enabled.
-index.js:104   ->testExit(exit no,true)
-index.js:303 items at: {fn: 'testExit ', caller: undefined, path: 'http://127.0.0.1:8080/index.js', file: 'index.js'}
-index.js:104   <-testExit()
-index.js:310 :6 ms
-index.js:306 stack= Error
-    at TTNI.ne (http://127.0.0.1:8080/node_modules/ttni/dist/index.js:297:42)
+index.ts:131   ->testExit(exit no,true)
+index.ts:348 items at: Object
+index.ts:131   <-testExit()
+index.ts:356 :4 ms
+index.ts:352 stack= Error
+    at TTNI.ne (http://127.0.0.1:8080/node_modules/ttni-web/dist/index.js:290:46)
     at testExit (http://127.0.0.1:8080/index.js:77:3)
     at http://127.0.0.1:8080/index.js:81:1
+
+
+
 ```
 
 ### Show in terminal console
