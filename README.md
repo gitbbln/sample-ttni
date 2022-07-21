@@ -1,6 +1,10 @@
 # sample-ttni 1.0.5
 
+<<<<<<< HEAD
 Get function name  from stacktrace for web or node
+=======
+Get function name  from stacktrace for web
+>>>>>>> b828053b5180fa1e2e8e5da9878c976d6cf9f5c2
 
 ## Download
 
@@ -57,6 +61,7 @@ import { TTNI } from './node_modules/ttni-web/dist/index.js'
 yarn serve
 ```
 
+<<<<<<< HEAD
 ## --------node----------
 
 ### Run (for node)
@@ -66,6 +71,28 @@ node index-node.js
 ```
 
 ## index-node.js
+=======
+## HTML
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TypeScript for the web</title>
+</head>
+<body>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
+
+
+```
+
+## index.js
+>>>>>>> b828053b5180fa1e2e8e5da9878c976d6cf9f5c2
 
 ```JavaScript
 import { TTNI } from 'ttni'
