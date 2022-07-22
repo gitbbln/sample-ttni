@@ -63,8 +63,6 @@ yarn serve
 node index-node.js
 ```
 
-## index-node.js
-
 ## html
 
 ```HTML
@@ -84,11 +82,16 @@ node index-node.js
 
 ```
 
-## index.js
+## index.js (for-web)
+
+```JavaScript
+import { TTNI } from './node_modules/ttni-web/dist/index.js'
+```
+
+## index-node.js (for node)
 
 ```JavaScript
 import { TTNI } from 'ttni'
-```
 
 ## --------common part----------
 
