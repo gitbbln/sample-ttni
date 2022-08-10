@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "ttni": "^1.0.5",
+    "ttni-cnsl": "^0.0.1",
     "ttni-web": "^1.0.5"
   },
   "devDependencies": {

@@ -1,4 +1,5 @@
 import { TTNI } from 'ttni'
+import { Cnsl } from 'ttni-cnsl'
 let ttni = new TTNI();
 let ni = ttni.ni.bind(ttni);
 let ne = ttni.ne.bind(ttni);
@@ -77,7 +78,16 @@ function testExit(...nu) {
   ne()
 
 }
+var cnsl = new Cnsl();
+var arr1 = 'a,b,c'.split(",");
+var obj = cnsl.ao(arr1);
+var cursor = cnsl.cursor;
+var log = cnsl.log;
+var loc = cnsl.loc;
+loc("", 1, 1, '-G_R Y W', 'Андрей', 'test', 'cnsl');
+loc("", 1, 2, '', 'Андрей', 'test', 'cnsl');
 
-testExit(['exit no', true]);
+/*(['exit no', true]);
 ttni.shTimer();
 ttni.shStack();
+*/
