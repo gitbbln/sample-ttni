@@ -1,4 +1,4 @@
-# sample-ttni 1.0.5
+# sample-ttni 1.0.6
 
 Get function name  from stacktrace for web or node
 

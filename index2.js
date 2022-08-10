@@ -1,9 +1,9 @@
-import { TTNI } from 'ttni'
+import { TTNI } from './node_modules/ttni-web/dist/index.js'
 let ttni = new TTNI();
 let ni = ttni.ni.bind(ttni);
 let ne = ttni.ne.bind(ttni);
-console.log(ttni.ni)
 
+console.log(ttni);
 ttni.logs = { test0: true, test1: !true }
 Object.assign(ttni, { bHtml: false, bShowTimer: true, bCaller: false, bTrace: true, logs: undefined, maxColorsLevel: 4 })
 
